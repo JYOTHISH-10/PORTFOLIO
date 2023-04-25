@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 
+  <link rel="stylesheet" type="text/css" href="css/projects.scss" />
+
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand" rel="stylesheet" />
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="css/animations.css" />
+  <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+
+  <title>JYOTHISH</title>
+  <link rel="stylesheet" type="text/css" href="css/animations.css" />
+  <link rel="icon" type="image/x-icon" href="images/JJ.ico">
+  <style>
+    body{
+      height: 100vh;
+      background-color: #5f45bb;
+      background-image: linear-gradient( #189cac, #d054e4);
+      color: white;
+    }
+    .cards{
+      display: flex;
+      gap: 10px;
+      color: black;
+    }
+    .card {
+      min-height: 280px;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+img{
+  min-height: 300px;
+}
+
+.container {
+  padding: 2px 16px;
+}
+  </style>
+</head>
+
+<body>
+ <center><h1 style="font-family: quicksand;">PROJECTS</h1></center> 
+ <br><br>
+
+<div class="cards">
+  <div class="card">
+    <img src="images/restaurant.webp" alt="PROJECT1" style="width: 100%">
+    <div class="container">
+    <h4><b><center>RESTAURANT WEBSITE</center></b></h4> 
+    <p><center>HTML, CSS, JS</center></p> 
+  </div>
+  </div>
+  
+  <div class="card">
+    <img src="images/ibm.jpg" alt="PROJECT2" style="width:100%">
+    <div class="container">
+    <h4><b><center>UNIVERSITY ADMIT PREDICTOR</center></b></h4> 
+    <p><center>Python, Flask, IBM Watson</center></p> 
+  </div>
+  </div>
+
+  <div class="card">
+    <img src="images/yolo.png" alt="PROJECT3" style="width:100%">
+    <div class="container">
+    <h4><b><center>THREAT DETECTION USING YOLO</center></b></h4> 
+    <p><center>Python, YOLO, Flask</center></p> 
+  </div>
+  </div>
+</div>
+
+
+</body>
+
+</html>
